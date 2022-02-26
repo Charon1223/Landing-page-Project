@@ -4,8 +4,10 @@
 ## 첫번째 개인 프로젝트 ( HTML + CSS 독학 약 1개월반 )
 * 해당 프로젝트 제작 기간은 3일정도(퇴근후 2~3시간) 소요
 * Freecodingcamp로 학습중이며 Frontend 개발자가 목표
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100138165/155845794-f77d9743-8884-4676-9ea6-1a9977f26f8f.png" alt="example_1" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/100138165/155845804-935a85d7-164d-4499-8507-15e2d59611f6.png" alt="example_2" width="50%" height="50%"/>
+</p>
 
 * * *
 ## 알게된 점
