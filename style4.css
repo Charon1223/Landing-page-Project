@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #eeeeee;
+  z-index: 999;
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #form {
+    padding-top: 30px;
+  }
+  .three-info {
+    margin-left: -60%;
+    text-align: center;
+  }
+
+  .trombone {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20%;
+  }
+}
+#nav-link {
+  list-style: none;
+}
+#nav-bar {
+}
+#nav-link li {
+  display: inline-block;
+  padding: 0 110px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  line-height: 40px;
+}
+
+#email {
+  width: 270px;
+  height: 30px;
+}
+
+#submit {
+  position: relative;
+  margin-left: 58px;
+  color: rgb(242, 249, 255);
+  background-color: #ff8c00;
+  box-shadow: 2px 2px 2px rgb(97, 95, 95);
+  border: none;
+  padding: 4px 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 1s;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #ce7b15;
+}
+
+/* info */
+section {
+  padding-top: 30px;
+}
+
+.info {
+  margin-top: 80px;
+}
+
+.info i {
+  font-size: 45px;
+  color: #ff8c00;
+  margin-top: 5px;
+}
+.fire {
+  display: inline-flex;
+  margin-left: 23%;
+}
+
+#fire-1 {
+  margin-left: 80px;
+}
+.truck {
+  margin-top: 60px;
+  display: inline-flex;
+  margin-left: 23%;
+}
+#truck-1 {
+  margin-left: 63px;
+}
+.battery {
+  margin-top: 55px;
+  display: inline-flex;
+  margin-left: 23%;
+}
+#battery-1 {
+  margin-left: 65px;
+}
+.truck i {
+  margin-top: 12px;
+}
+.battery i {
+  margin-top: 20px;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+/* Trombone Box */
+.tenor {
+  border: 1px solid black;
+  width: 310px;
+  height: 310px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+  height: 50px;
+  background-color: #dddddd;
+  padding: 14px 0;
+}
+h2 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.tenor p {
+  margin-top: 5px;
+  line-height: 28px;
+}
+.bass p {
+  margin-top: 5px;
+  line-height: 28px;
+}
+.valve p {
+  margin-top: 5px;
+  line-height: 28px;
+}
+#tenor-btn {
+  font-size: 17px;
+  width: 110px;
+  height: 40px;
+  border: none;
+  background-color: #f1c40f;
+  margin-top: 35px;
+  cursor: pointer;
+  transition: all 1s;
+}
+#tenor-btn:hover {
+  background-color: #c4ad17;
+}
+
+.bass {
+  border: 1px solid black;
+  width: 310px;
+  height: 310px;
+  text-align: center;
+}
+
+.valve {
+  border: 1px solid black;
+  width: 310px;
+  height: 310px;
+  text-align: center;
+}
+
+.trombone {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-box p {
+  font-size: 13px;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+a {
+  font-size: 17px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+}
+.footer-box1 {
+  text-align: end;
+  background-color: #dddddd;
+  height: 70px;
+  width: 990px;
+  margin-top: 35px;
+  padding: 15px 20px 0 0;
+}
+.footer-box1 #Privacy {
+  padding-right: 15px;
+}
+.footer-box1 #Terms {
+  padding-right: 15px;
+}
+.footer-box1 #Contact {
+  padding-right: 15px;
+}
